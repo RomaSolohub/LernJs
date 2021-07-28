@@ -1,2 +1,2 @@
 
-console.log('totalCost');
+alert( 'Привет, мир!' )
