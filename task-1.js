@@ -5,6 +5,6 @@ let ya = 4/25;
 let er = 2/3; 
 let ii = ((ru+ua)/ya*er);
 let ig = (ru-ua-ya+er);
- jf(ii<ig)
-  {alert (GOOD)}
- else {alert (NoGood)};
+ if (ii<ig)
+  (alert ("good"))
+ else (alert ("nogood"));
