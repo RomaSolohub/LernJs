@@ -1,4 +1,6 @@
-let a = prompt("Первое число?", 1);
-let b = prompt("Второе число?", 2);
+// it's link for my site 
+// https://romasolohub.github.io/LernJs/
 
-alert(+a + +b); // 12
+
+let massage = prompt ('Сколько тебе лет?','');
+alert ("Пиздишь)")
