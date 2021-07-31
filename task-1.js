@@ -1,8 +1,4 @@
-let a = 1, b = 1;
+let a = prompt("Первое число?", 1);
+let b = prompt("Второе число?", 2);
 
-let c = ++a; 
-let d = b++;
-alert ("a1="+a);
-alert ("b1="+b);
-alert ("c1="+c);
-alert ("d1="+d);
+alert(+a + +b); // 12
