@@ -1,15 +1,17 @@
 // it's link for my site 
 // https://romasolohub.github.io/LernJs/
-let year = prompt('В каком году была опубликована спецификация ECMAScript-2015?', '');
-if (year < 2015) {
-  alert( 'Это слишком рано...' );
-} else if (year > 2015) {
-  alert( 'Это поздновато' );
+let year = prompt('Какой год крещения Руси?', '');
+if (year == 998) {
+  alert('Верно!');
+}  else {
+  alert('Не верно')};
+let hbdTaras = prompt('Год рождения Тараса Шевченко?', '');
+if (hbdTaras == 1814) {
+        alert ('Верно! А Вы знаток.');
 } else {
-  alert( 'Верно!' )};
-let userN = prompt('Сколько пальцев у вас на одной руке', '');
-if (userN < 5) {
-        alert ('маловато');
-} else  if (userN > 5) {
-        alert ('многовато')};
-   alert ('Молодец!');
+        alert ('Увы...Не верно')};
+let god = prompt('Сколько есть заповедей Божьих?', '');
+if (god == 10) {
+    alert ('Верно!Май Бога в серці, блят');
+} else {
+    alert ('Не верно. Май Бога в серці, блят')};
