@@ -10,23 +10,31 @@ if (year == 998) {
   result = 0};
 let hbdTaras = prompt('Год рождения Тараса Шевченко?', '');
 if (hbdTaras == 1814) {
-        alert ('Верно! А Вы знаток.');
+   alert ('Верно! А Вы знаток.');
+   result = ++result
 } else {
-        alert ('Увы...Не верно')};
+        alert ('Увы...Не верно')
+    result = result};
 let god = prompt('Сколько есть заповедей Божьих?', '');
 if (god == 10) {
     alert ('Верно! Май Бога в серці, блят');
+    result = ++result
 } else {
-    alert ('Не верно... Май Бога в серці, блят')};
+    alert ('Не верно... Май Бога в серці, блят')
+    result = result};
 let yearNow = prompt('Какой сейчас год?', '');
 if (yearNow == 2021) {
-    alert ('Верно!Хорошо что хоть это знаете.');
+    alert ('Верно!Хорошо что хоть это знаете.')
+    result = ++result;
 } else {
-    alert ('Не верно. Посмотри на календарь.')};
+    alert ('Не верно. Посмотри на календарь.')
+    result = result};
 let ter = prompt('Сколько пальцев на лапе у собаки?', '');
 if (ter == 4) {
-    alert ('Верно! Ваш пес доволен!');
-} else {
-    alert ('Не верно. Спроси у своего пса) ')};
-alert ("Ваш результат:" result)
+    alert ('Верно! Ваш пес доволен!')
+    result = ++result;}
+     else {
+    alert ('Не верно. Спроси у своего пса) ')
+    result = result};
+alert ("Ваш результат: " +result)
     
