@@ -17,10 +17,10 @@ if (hbdTaras == 1814) {
     result = result};
 let god = prompt('Сколько есть заповедей Божьих?', '');
 if (god == 10) {
-    alert ('Верно! Май Бога в серці, блят');
+    alert ('Верно! Май Бога в серці');
     result = ++result
 } else {
-    alert ('Не верно... Май Бога в серці, блят')
+    alert ('Не верно... Май Бога в серці')
     result = result};
 let yearNow = prompt('Какой сейчас год?', '');
 if (yearNow == 2021) {
@@ -36,5 +36,6 @@ if (ter == 4) {
      else {
     alert ('Не верно. Спроси у своего пса) ')
     result = result};
-alert ("Ваш результат: " +result)
+alert ("Ваш результат: " +result )
+
     
